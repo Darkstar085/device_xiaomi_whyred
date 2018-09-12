@@ -17,21 +17,20 @@
 # Release name
 PRODUCT_RELEASE_NAME := whyred
 
+# Inherit build target
 $(call inherit-product, build/target/product/embedded.mk)
 
-# PixelExperience stuff.
-TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_GAPPS_ARCH := arm64
-
-# Inherit from our custom product configuration
+# Inherit from those products. Most specific first
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+
+# Inherit some common Lineage stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from whyred device
 $(call inherit-product, device/xiaomi/whyred/device.mk)
 
-## Device identifier. This must come after all inclusions
+# Device identifier. This must come after all inclusions
 PRODUCT_NAME := lineage_whyred
 PRODUCT_DEVICE := whyred
 PRODUCT_MANUFACTURER := Xiaomi
@@ -40,11 +39,13 @@ PRODUCT_FULL_TREBLE_OVERRIDE := true
 
 TARGET_VENDOR_PRODUCT_NAME := whyred
 TARGET_VENDOR_DEVICE_NAME := whyred
-PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=whyred PRODUCT_NAME=whyred
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="whyred-user 8.1.0 OPM1.171019.011 V9.5.11.0.OEIMIFA release-keys"
+    PRIVATE_BUILD_DESC="whyred-user 8.1.0 OPM1.171019.011 V9.5.11.0.OEIMIFA release-keys" \
+	TARGET_DEVICE="whyred" \
+	PRODUCT_NAME="whyred"
 
+# Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := xiaomi/whyred/whyred:8.1.0/OPM1.171019.011/V9.5.11.0.OEIMIFA:user/release-keys
 
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST += \
