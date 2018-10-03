@@ -1,5 +1,14 @@
-# Device Tree for Xiaomi Redmi Note 5 / Note 5 Pro (whyred)
- ## Spec Sheet
+------------------------------------
+
+HALL OF FAME
+============
+[![](https://sourcerer.io/fame/Sweeto143/Sweeto143/device_xiaomi_whyred/images/0)](https://sourcerer.io/fame/Sweeto143/Sweeto143/device_xiaomi_whyred/links/0)[![](https://sourcerer.io/fame/Sweeto143/Sweeto143/device_xiaomi_whyred/images/1)](https://sourcerer.io/fame/Sweeto143/Sweeto143/device_xiaomi_whyred/links/1)[![](https://sourcerer.io/fame/Sweeto143/Sweeto143/device_xiaomi_whyred/images/2)](https://sourcerer.io/fame/Sweeto143/Sweeto143/device_xiaomi_whyred/links/2)[![](https://sourcerer.io/fame/Sweeto143/Sweeto143/device_xiaomi_whyred/images/3)](https://sourcerer.io/fame/Sweeto143/Sweeto143/device_xiaomi_whyred/links/3)[![](https://sourcerer.io/fame/Sweeto143/Sweeto143/device_xiaomi_whyred/images/4)](https://sourcerer.io/fame/Sweeto143/Sweeto143/device_xiaomi_whyred/links/4)[![](https://sourcerer.io/fame/Sweeto143/Sweeto143/device_xiaomi_whyred/images/5)](https://sourcerer.io/fame/Sweeto143/Sweeto143/device_xiaomi_whyred/links/5)[![](https://sourcerer.io/fame/Sweeto143/Sweeto143/device_xiaomi_whyred/images/6)](https://sourcerer.io/fame/Sweeto143/Sweeto143/device_xiaomi_whyred/links/6)[![](https://sourcerer.io/fame/Sweeto143/Sweeto143/device_xiaomi_whyred/images/7)](https://sourcerer.io/fame/Sweeto143/Sweeto143/device_xiaomi_whyred/links/7)
+
+-------------------------------------
+
+Device Tree for Xiaomi Redmi Note 5 / Note 5 Pro (whyred)
+=================================
+## Spec Sheet
  | Feature                 | Specification (Note 5)            | Specification (Note 5 Pro)        |
 | :---------------------- | :-------------------------------- | :-------------------------------- |
 | CPU                     | 8x Qualcomm® Kryo™ 260 CPU        | ""                                |
