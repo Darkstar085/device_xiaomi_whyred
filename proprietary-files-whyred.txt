@@ -15,6 +15,11 @@ vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp
 vendor/etc/acdbdata/adsp_avs_config.acdb
 
+# Audio Dirac - from Xiaomi
+vendor/lib/soundfx/libdirac.so|f63826a905b520fa524e4c1b147be7cf65240953
+vendor/lib/libDiracAPI_SHARED.so|42b49679d38eca93fead05ea06ddbdc8108fd4b1
+vendor/etc/diracmobile.config|d781cd6798a7481a8f7128d144abfb2b8794212d
+
 # Camera - from V10.3.5.0.PEICNXM
 vendor/lib/hw/camera.sdm660.so|b372596587eb0552e0f75a073b542a31f1ab0cd1
 vendor/lib/libSonyIMX376C3RmscLibrary.so|b3138daf9b93c645b89b67d28c3f6fadfbbfdb42
