@@ -1,0 +1,5 @@
+#============= system_app ==============
+
+# Battery Health
+allow system_app sysfs_battery_supply:dir { search };
+allow system_app sysfs_battery_supply:file { getattr open read };
