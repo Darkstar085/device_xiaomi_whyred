@@ -121,10 +121,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.s5k3l8_ofilm.light.lux=367 \
     persist.vendor.s5k3l8_ofilm.low.lux=379
 
-PRODUCT_PROPERTY_OVERRIDES += \
-    vendor.camera.hal1.packagelist=com.whatsapp,com.intsig.camscanner,com.instagram.android \
-    vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.motorola.faceunlock,com.android.camera
-
 # Charger
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.charger.disable_init_blank=true \
