@@ -124,6 +124,8 @@ void set_model_props() {
     for (const auto& source : ro_props_default_source_order) {
         set_ro_product_prop(source, "model", model);
     }
+
+    property_override("persist.vendor.camera.exif.model", model.c_str());
 }
 
 void vendor_load_properties() {
