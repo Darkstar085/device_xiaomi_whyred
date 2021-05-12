@@ -16,7 +16,7 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.lineageos.settings.doze"
+    package="org.lineageos.settings"
     android:sharedUserId="android.uid.system"
     android:versionCode="1"
     android:versionName="1.0">
@@ -42,12 +42,12 @@
         </receiver>
 
         <service
-            android:name=".DozeService"
+            android:name=".doze.DozeService"
             android:permission="XiaomiDozeService">
         </service>
 
         <activity
-            android:name=".DozeSettingsActivity"
+            android:name=".doze.DozeSettingsActivity"
             android:label="@string/ambient_display_title"
             android:theme="@style/Theme.Main">
             <intent-filter>

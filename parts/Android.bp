@@ -5,7 +5,7 @@
 //
 
 android_app {
-    name: "XiaomiDoze",
+    name: "XiaomiParts",
 
     srcs: ["src/**/*.java"],
     resource_dirs: ["res"],
