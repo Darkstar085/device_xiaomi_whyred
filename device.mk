@@ -21,10 +21,6 @@
 # definition file).
 #
 
-# Inherit properties
-$(call inherit-product, $(LOCAL_PATH)/properties.mk)
-PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
-
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2160
 TARGET_SCREEN_WIDTH := 1080
